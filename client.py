@@ -3,7 +3,7 @@ import pycustomdigits
 import time
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.connect(('192.168.0.13', 7543))
+sock.connect(('', 7543))
 
 x = 1
 toaddpi = 0
